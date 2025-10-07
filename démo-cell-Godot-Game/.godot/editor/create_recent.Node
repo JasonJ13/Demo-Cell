@@ -1,8 +1,8 @@
+TileMapLayer
 AudioStreamPlayer      - Matches the "sound" keyword.
 Timer
 AnimatedSprite2D
 Node2D
-TileMapLayer
 CharacterBody2D
 TextureRect
 ColorRect
@@ -12,4 +12,3 @@ Label      - Matches the "text" keyword.
 TextEdit
 AudioStreamPlayer
 AudioStreamPlayer2D      - Matches the "sound" keyword.
-Fruit
