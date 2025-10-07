@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=3 uid="uid://cofg20skejv2h"]
+
+[ext_resource type="FontFile" uid="uid://cje4bll6lu060" path="res://Jeu complé/Asset/pixel.ttf" id="1_wjws1"]
+[ext_resource type="Script" uid="uid://bfg4ed1qhrd1x" path="res://Jeu complé/Script/interface.gd" id="1_xjjv4"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xjjv4"]
+font = ExtResource("1_wjws1")
+font_size = 24
+
+[node name="Interface" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xjjv4")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -70.0
+offset_top = -11.0
+offset_bottom = 32.0
+grow_horizontal = 0
+color = Color(0, 0, 0, 0.3764706)
+
+[node name="nmb_fruit" type="Label" parent="."]
+layout_mode = 0
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -60.0
+offset_bottom = 23.0
+grow_horizontal = 0
+text = "0/10"
+label_settings = SubResource("LabelSettings_xjjv4")

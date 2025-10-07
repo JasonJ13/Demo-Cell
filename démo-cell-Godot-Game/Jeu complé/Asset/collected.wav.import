@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8omdguqbqwel"
+path="res://.godot/imported/collected.wav-76df2e169a8b9d5f6d0a19d3c092d555.sample"
+
+[deps]
+
+source_file="res://Jeu complé/Asset/collected.wav"
+dest_files=["res://.godot/imported/collected.wav-76df2e169a8b9d5f6d0a19d3c092d555.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
